@@ -1,0 +1,17 @@
+{
+  "name": "custom-repl",
+  "version": "1.0.0",
+  "description": "Custom REPL (similar to artisan) for Node.js apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ozan Müyesseroğlu <ozanmuyes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.20.1",
+    "objection": "^1.6.11",
+    "sqlite3": "^4.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+node --experimental-repl-await -e "$(< index.js)"
+
+# This file is required to be able to use await keyword in the REPL.
+# So instead of running the custom REPL via `node index.js` run this.
